@@ -62,7 +62,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -73,7 +73,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -88,7 +88,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -99,7 +99,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -110,7 +110,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -121,12 +121,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -136,7 +132,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -202,7 +198,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -213,7 +209,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -228,7 +224,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -239,7 +235,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -250,7 +246,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -261,12 +257,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -276,7 +268,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -342,7 +334,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -353,7 +345,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -368,7 +360,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -379,7 +371,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -390,7 +382,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -401,12 +393,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -416,7 +404,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -482,7 +470,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -493,7 +481,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -508,7 +496,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -519,7 +507,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -530,7 +518,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -541,12 +529,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -556,7 +540,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -622,7 +606,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -633,7 +617,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -648,7 +632,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -659,7 +643,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -670,7 +654,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -681,12 +665,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -696,7 +676,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -762,7 +742,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -773,7 +753,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -788,7 +768,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -799,7 +779,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -810,7 +790,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -821,12 +801,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -836,7 +812,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -902,7 +878,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -913,7 +889,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -928,7 +904,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -939,7 +915,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -950,7 +926,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -961,12 +937,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -976,7 +948,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -1042,7 +1014,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -1053,7 +1025,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -1068,7 +1040,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -1079,7 +1051,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -1090,7 +1062,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -1101,12 +1073,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -1116,7 +1084,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -1182,7 +1150,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 208.5,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -1193,7 +1161,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 486.5,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -1208,7 +1176,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 313.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -1219,7 +1187,7 @@
       "giftsPreferences" : [ "Board Games", "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -1230,7 +1198,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -1241,12 +1209,8 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : "NaN",
+      "receivedGifts" : [ ]
     }, {
       "id" : 9,
       "lastName" : "Mihalache",
@@ -1256,7 +1220,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 161.0,
       "receivedGifts" : [ ]
     } ]
   } ]

@@ -136,7 +136,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -147,7 +147,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -166,7 +166,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -177,7 +177,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -188,7 +188,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -328,7 +328,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -339,7 +339,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -358,7 +358,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -369,7 +369,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -380,7 +380,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -520,7 +520,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -531,7 +531,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -550,7 +550,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -561,7 +561,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -572,7 +572,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -712,7 +712,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -723,7 +723,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -742,7 +742,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -753,7 +753,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -764,7 +764,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -904,7 +904,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -915,7 +915,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -934,7 +934,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -945,7 +945,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -956,7 +956,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -1096,7 +1096,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 882.5294117647059,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -1107,7 +1107,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 784.4705882352941,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -1126,7 +1126,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 984.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -1137,7 +1137,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 631.6666666666666,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -1148,7 +1148,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 126.33333333333333,
       "receivedGifts" : [ ]
     } ]
   } ]

@@ -123,7 +123,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -134,7 +134,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -145,7 +145,7 @@
       "giftsPreferences" : [ "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -272,7 +272,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -283,7 +283,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -294,7 +294,7 @@
       "giftsPreferences" : [ "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -421,7 +421,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -432,7 +432,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -443,7 +443,7 @@
       "giftsPreferences" : [ "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -570,7 +570,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -581,7 +581,7 @@
       "giftsPreferences" : [ "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -592,7 +592,7 @@
       "giftsPreferences" : [ "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 0.0,
       "receivedGifts" : [ ]
     } ]
   } ]

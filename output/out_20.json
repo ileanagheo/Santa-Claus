@@ -116,7 +116,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -127,7 +127,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -138,7 +138,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -149,7 +149,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -269,7 +269,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -280,7 +280,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -291,7 +291,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -302,7 +302,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -422,7 +422,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -433,7 +433,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -444,7 +444,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -455,7 +455,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -575,7 +575,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -586,7 +586,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -597,7 +597,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -608,7 +608,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -728,7 +728,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -739,7 +739,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -750,7 +750,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -761,7 +761,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -881,7 +881,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books" ],
       "averageScore" : 0.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : "NaN",
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -892,7 +892,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 7,
@@ -903,7 +903,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -914,7 +914,7 @@
       "giftsPreferences" : [ "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1203.0,
       "receivedGifts" : [ ]
     } ]
   } ]

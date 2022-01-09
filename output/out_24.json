@@ -456,7 +456,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -471,7 +471,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -482,7 +482,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -493,7 +493,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -504,7 +504,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -519,7 +519,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -534,7 +534,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -545,7 +545,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -556,7 +556,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -1016,7 +1016,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -1031,7 +1031,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -1042,7 +1042,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -1053,7 +1053,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -1064,7 +1064,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -1079,7 +1079,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -1094,7 +1094,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -1105,7 +1105,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -1116,7 +1116,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -1576,7 +1576,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -1591,7 +1591,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -1602,7 +1602,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -1613,7 +1613,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -1624,7 +1624,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -1639,7 +1639,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -1654,7 +1654,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -1665,7 +1665,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -1676,7 +1676,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -2136,7 +2136,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -2151,7 +2151,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -2162,7 +2162,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -2173,7 +2173,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -2184,7 +2184,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -2199,7 +2199,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -2214,7 +2214,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -2225,7 +2225,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -2236,7 +2236,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -2696,7 +2696,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -2711,7 +2711,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -2722,7 +2722,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -2733,7 +2733,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -2744,7 +2744,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -2759,7 +2759,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -2774,7 +2774,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -2785,7 +2785,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -2796,7 +2796,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -3256,7 +3256,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -3271,7 +3271,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -3282,7 +3282,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -3293,7 +3293,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -3304,7 +3304,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -3319,7 +3319,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -3334,7 +3334,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -3345,7 +3345,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -3356,7 +3356,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -3816,7 +3816,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -3831,7 +3831,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -3842,7 +3842,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -3853,7 +3853,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -3864,7 +3864,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -3879,7 +3879,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -3894,7 +3894,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -3905,7 +3905,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -3916,7 +3916,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -4376,7 +4376,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -4391,7 +4391,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -4402,7 +4402,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -4413,7 +4413,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -4424,7 +4424,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -4439,7 +4439,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -4454,7 +4454,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -4465,7 +4465,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -4476,7 +4476,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -4936,7 +4936,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 127.0,
       "receivedGifts" : [ {
         "productName" : "Shoes",
         "price" : 70.0,
@@ -4951,7 +4951,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 15,
@@ -4962,7 +4962,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1853.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 16,
@@ -4973,7 +4973,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1179.1818181818182,
       "receivedGifts" : [ ]
     }, {
       "id" : 17,
@@ -4984,7 +4984,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 673.8181818181819,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -4999,7 +4999,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 463.25,
       "receivedGifts" : [ {
         "productName" : "Lego",
         "price" : 30.0,
@@ -5014,7 +5014,7 @@
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1389.75,
       "receivedGifts" : [ ]
     }, {
       "id" : 20,
@@ -5025,7 +5025,7 @@
       "giftsPreferences" : [ "Clothes", "Board Games", "Technology" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 1297.1000000000001,
       "receivedGifts" : [ ]
     }, {
       "id" : 21,
@@ -5036,7 +5036,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 398.0,
+      "assignedBudget" : 555.9000000000001,
       "receivedGifts" : [ ]
     } ]
   } ]
