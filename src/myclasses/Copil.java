@@ -13,12 +13,12 @@ public class Copil {
     private String firstName;
     private String city;
     private int age;
-    private double niceScore;
-    private List<Category> giftsPreferences;
+    private Double niceScore;
+    private List<Category> giftsPreferences = new ArrayList<>();
     private double averageScore;
-    private List<Double> niceScoreHistory;
+    private List<Double> niceScoreHistory = new ArrayList<>();
     private double assignedBudget;
-    private List<Cadou> receivedGifts;
+    private List<Cadou> receivedGifts = new ArrayList<>();
 
     public Copil() {
     }
@@ -73,7 +73,7 @@ public class Copil {
         this.age = age;
     }
 
-    public double getNiceScore() {
+    public Double getNiceScore() {
         return niceScore;
     }
 

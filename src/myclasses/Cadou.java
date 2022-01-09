@@ -41,4 +41,8 @@ public class Cadou {
     public final void setCategory(final Category category) {
         this.category = category;
     }
+
+    public int compareTo(Cadou o) {
+        return Double.compare(this.getPrice(), o.getPrice());
+    }
 }
