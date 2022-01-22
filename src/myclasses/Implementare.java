@@ -9,8 +9,6 @@ import java.util.List;
 import java.util.Set;
 
 public class Implementare {
-    //Fac deep copy-uri pentru toate tipurile de liste.
-
     /**
      * @param list
      * @return
