@@ -44,10 +44,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -62,10 +58,6 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
         "category" : "Sweets"
       }, {
         "productName" : "Doll",
@@ -79,11 +71,11 @@
       "lastName" : "Pop",
       "firstName" : "Diana",
       "city" : "Brasov",
-      "age" : 10,
+      "age" : 11,
       "giftsPreferences" : [ "Books", "Sweets", "Toys" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 54.78260869565218,
+      "assignedBudget" : 99.13043478260869,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
@@ -92,35 +84,35 @@
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Andreea",
       "city" : "Oradea",
-      "age" : 15,
+      "age" : 16,
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 87.65217391304348,
+      "assignedBudget" : 158.6086956521739,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
       "firstName" : "Alexandra",
       "city" : "Oradea",
-      "age" : 8,
+      "age" : 9,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 43.82608695652174,
+      "assignedBudget" : 79.30434782608695,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
         "category" : "Toys"
       } ]
     }, {
@@ -128,18 +120,14 @@
       "lastName" : "Popa",
       "firstName" : "Maria",
       "city" : "Timisoara",
-      "age" : 16,
+      "age" : 17,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 65.73913043478261,
+      "assignedBudget" : 118.95652173913044,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
         "category" : "Sweets"
       }, {
         "productName" : "Doll",
@@ -153,11 +141,11 @@
       "lastName" : "Pop",
       "firstName" : "Diana",
       "city" : "Brasov",
-      "age" : 10,
+      "age" : 12,
       "giftsPreferences" : [ "Books", "Sweets", "Toys" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 54.78260869565218,
+      "assignedBudget" : 184.7826086956522,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
@@ -166,35 +154,35 @@
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Andreea",
       "city" : "Oradea",
-      "age" : 15,
+      "age" : 17,
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 87.65217391304348,
+      "assignedBudget" : 295.6521739130435,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
       "firstName" : "Alexandra",
       "city" : "Oradea",
-      "age" : 8,
+      "age" : 10,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 43.82608695652174,
+      "assignedBudget" : 147.82608695652175,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
         "category" : "Toys"
       } ]
     }, {
@@ -202,18 +190,14 @@
       "lastName" : "Popa",
       "firstName" : "Maria",
       "city" : "Timisoara",
-      "age" : 16,
+      "age" : 18,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 65.73913043478261,
+      "assignedBudget" : 221.73913043478262,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
         "category" : "Sweets"
       }, {
         "productName" : "Doll",
@@ -227,11 +211,11 @@
       "lastName" : "Pop",
       "firstName" : "Diana",
       "city" : "Brasov",
-      "age" : 10,
+      "age" : 13,
       "giftsPreferences" : [ "Books", "Sweets", "Toys" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 54.78260869565218,
+      "assignedBudget" : 58.82352941176471,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
@@ -240,56 +224,33 @@
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Andreea",
       "city" : "Oradea",
-      "age" : 15,
+      "age" : 18,
       "giftsPreferences" : [ "Board Games" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 87.65217391304348,
+      "assignedBudget" : 94.11764705882354,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Ionescu",
       "firstName" : "Alexandra",
       "city" : "Oradea",
-      "age" : 8,
+      "age" : 11,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 43.82608695652174,
+      "assignedBudget" : 47.05882352941177,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Popa",
-      "firstName" : "Maria",
-      "city" : "Timisoara",
-      "age" : 16,
-      "giftsPreferences" : [ "Sweets", "Toys" ],
-      "averageScore" : 6.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 65.73913043478261,
-      "receivedGifts" : [ {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"

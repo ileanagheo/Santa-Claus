@@ -3,20 +3,31 @@ package myclasses;
 import java.util.List;
 
 public class ChildrenOneYear {
-    List<ChildOut> children;
+    private List<ChildOut> children;
 
+    /**
+     */
     public ChildrenOneYear() {
     }
 
-    public ChildrenOneYear(List<ChildOut> children) {
+    /**
+     * @param children
+     */
+    public ChildrenOneYear(final List<ChildOut> children) {
         this.children = children;
     }
 
+    /**
+     * @return
+     */
     public List<ChildOut> getChildren() {
         return children;
     }
 
-    public void setChildren(List<ChildOut> children) {
+    /**
+     * @param children
+     */
+    public void setChildren(final List<ChildOut> children) {
         this.children = children;
     }
 }

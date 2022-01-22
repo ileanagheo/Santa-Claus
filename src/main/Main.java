@@ -5,12 +5,14 @@ import com.fasterxml.jackson.core.util.DefaultIndenter;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import myclasses.*;
+
+import common.Constants;
+import myclasses.Implementare;
+import myclasses.Input;
+import myclasses.AnnualChildren;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Class used to run the code
@@ -28,22 +30,23 @@ public final class Main {
     public static void main(final String[] args) {
 
         try {
-            for (int i = 1; i <= 25; i++) {
-                ObjectMapper objectMapper =  new ObjectMapper();
-                Input input = objectMapper.readValue(new File("tests/test" + i + ".json"), Input.class);
-                objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-                DefaultPrettyPrinter prettyPrinter = new DefaultPrettyPrinter();
-                prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
+            for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
+                    ObjectMapper objectMapper = new ObjectMapper();
+                    Input input = objectMapper.readValue(new File(Constants.TEST_PATH + i
+                            + Constants.FILE_EXTENSION), Input.class);
+                    objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+                    DefaultPrettyPrinter prettyPrinter = new DefaultPrettyPrinter();
+                    prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
 
-                Implementare imp = new Implementare();
-                AnnualChildren aC = imp.incep(input);
-                objectMapper.writeValue(new File("output/out_" + i + ".json"), aC);
+                    Implementare imp = new Implementare();
+                    AnnualChildren aC = imp.start(input);
+                    objectMapper.writeValue(new File(Constants.OUTPUT_PATH + i
+                            + Constants.FILE_EXTENSION), aC);
             }
             Checker.calculateScore();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        Checker.calculateScore();
     }
 }

@@ -6,7 +6,6 @@ import java.util.List;
 
 public class ChildOut {
     //Modelul de afisare cum ne este cerut.
-
     private int id;
     private String lastName;
     private String firstName;
@@ -18,11 +17,29 @@ public class ChildOut {
     private double assignedBudget;
     private List<Cadou> receivedGifts;
 
+
+    /**
+     */
     public ChildOut() {
 
     }
 
-    public ChildOut(int id, String lastName, String firstName, String city, int age, List<Category> giftsPreferences, double averageScore, List<Double> niceScoreHistory, double assignedBudget, List<Cadou> receivedGifts) {
+    /**
+     * @param id
+     * @param lastName
+     * @param firstName
+     * @param city
+     * @param age
+     * @param giftsPreferences
+     * @param averageScore
+     * @param niceScoreHistory
+     * @param assignedBudget
+     * @param receivedGifts
+     */
+    public ChildOut(final int id, final String lastName, final String firstName, final String city,
+                    final int age, final List<Category> giftsPreferences, final double
+                            averageScore, final List<Double> niceScoreHistory, final double
+                            assignedBudget, final List<Cadou> receivedGifts) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -35,83 +52,143 @@ public class ChildOut {
         this.receivedGifts = receivedGifts;
     }
 
+    /**
+     * @return
+     */
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    /**
+     * @param id
+     */
+    public void setId(final int id) {
         this.id = id;
     }
 
+    /**
+     * @return
+     */
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    /**
+     * @param lastName
+     */
+    public void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 
+    /**
+     * @return
+     */
     public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    /**
+     * @param firstName
+     */
+    public void setFirstName(final String firstName) {
         this.firstName = firstName;
     }
 
+    /**
+     * @return
+     */
     public String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    /**
+     * @param city
+     */
+    public void setCity(final String city) {
         this.city = city;
     }
 
+    /**
+     * @return
+     */
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    /**
+     * @param age
+     */
+    public void setAge(final int age) {
         this.age = age;
     }
 
+    /**
+     * @return
+     */
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(List<Category> giftsPreferences) {
+    /**
+     * @param giftsPreferences
+     */
+    public void setGiftsPreferences(final List<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 
+    /**
+     * @return
+     */
     public double getAverageScore() {
         return averageScore;
     }
 
-    public void setAverageScore(double averageScore) {
+    /**
+     * @param averageScore
+     */
+    public void setAverageScore(final double averageScore) {
         this.averageScore = averageScore;
     }
 
+    /**
+     * @return
+     */
     public List<Double> getNiceScoreHistory() {
         return niceScoreHistory;
     }
 
-    public void setNiceScoreHistory(List<Double> niceScoreHistory) {
+    /**
+     * @param niceScoreHistory
+     */
+    public void setNiceScoreHistory(final List<Double> niceScoreHistory) {
         this.niceScoreHistory = niceScoreHistory;
     }
 
+    /**
+     * @return
+     */
     public double getAssignedBudget() {
         return assignedBudget;
     }
 
-    public void setAssignedBudget(double assignedBudget) {
+    /**
+     * @param assignedBudget
+     */
+    public void setAssignedBudget(final double assignedBudget) {
         this.assignedBudget = assignedBudget;
     }
 
+    /**
+     * @return
+     */
     public List<Cadou> getReceivedGifts() {
         return receivedGifts;
     }
 
-    public void setReceivedGifts(List<Cadou> receivedGifts) {
+    /**
+     * @param receivedGifts
+     */
+    public void setReceivedGifts(final List<Cadou> receivedGifts) {
         this.receivedGifts = receivedGifts;
     }
 }

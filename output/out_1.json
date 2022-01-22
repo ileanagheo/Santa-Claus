@@ -8,7 +8,7 @@
       "age" : 4,
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
+      "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 326.0,
       "receivedGifts" : [ {
         "productName" : "Uno",
@@ -30,11 +30,11 @@
       "lastName" : "Cantemir",
       "firstName" : "Maria",
       "city" : "Timisoara",
-      "age" : 4,
+      "age" : 5,
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 326.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 398.0,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,

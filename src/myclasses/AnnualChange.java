@@ -8,45 +8,78 @@ public class AnnualChange {
     private List<Copil> newChildren;
     private List<ChildUpdate> childrenUpdates;
 
+    /**
+     */
     public AnnualChange() {
     }
 
-    public AnnualChange(double newSantaBudget, List<Cadou> newGifts, List<Copil> newChildren, List<ChildUpdate> childrenUpdates) {
+    /**
+     * @param newSantaBudget
+     * @param newGifts
+     * @param newChildren
+     * @param childrenUpdates
+     */
+    public AnnualChange(final double newSantaBudget, final List<Cadou> newGifts,
+                        final List<Copil> newChildren, final List<ChildUpdate> childrenUpdates) {
         this.newSantaBudget = newSantaBudget;
         this.newGifts = newGifts;
         this.newChildren = newChildren;
         this.childrenUpdates = childrenUpdates;
     }
 
+    /**
+     * @return
+     */
     public double getNewSantaBudget() {
         return newSantaBudget;
     }
 
-    public void setNewSantaBudget(double newSantaBudget) {
+    /**
+     * @param newSantaBudget
+     */
+    public void setNewSantaBudget(final double newSantaBudget) {
         this.newSantaBudget = newSantaBudget;
     }
 
+    /**
+     * @return
+     */
     public List<Cadou> getNewGifts() {
         return newGifts;
     }
 
-    public void setNewGifts(List<Cadou> newGifts) {
+    /**
+     * @param newGifts
+     */
+    public void setNewGifts(final List<Cadou> newGifts) {
         this.newGifts = newGifts;
     }
 
+    /**
+     * @return
+     */
     public List<Copil> getNewChildren() {
         return newChildren;
     }
 
-    public void setNewChildren(List<Copil> newChildren) {
+    /**
+     * @param newChildren
+     */
+    public void setNewChildren(final List<Copil> newChildren) {
         this.newChildren = newChildren;
     }
 
+    /**
+     * @return
+     */
     public List<ChildUpdate> getChildrenUpdates() {
         return childrenUpdates;
     }
 
-    public void setChildrenUpdates(List<ChildUpdate> childrenUpdates) {
+    /**
+     * @param childrenUpdates
+     */
+    public void setChildrenUpdates(final List<ChildUpdate> childrenUpdates) {
         this.childrenUpdates = childrenUpdates;
     }
 }

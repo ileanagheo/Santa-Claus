@@ -15,24 +15,8 @@
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -43,7 +27,7 @@
       "age" : 3,
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
+      "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 406.78571428571433,
       "receivedGifts" : [ {
         "productName" : "Dress",
@@ -52,14 +36,6 @@
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
         "category" : "Toys"
       } ]
     }, {
@@ -77,44 +53,10 @@
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -122,34 +64,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 7,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 623.2142857142857,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -157,11 +83,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 4,
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 623.2142857142857,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -170,68 +96,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 10,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 498.57142857142856,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -239,34 +123,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 8,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 333.33333333333337,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -274,11 +142,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 5,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 200.0,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -287,68 +155,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 11,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 266.6666666666667,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -356,34 +182,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 9,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 552.9166666666666,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -391,11 +201,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 6,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 331.75,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -404,68 +214,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 12,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 442.3333333333333,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -473,34 +241,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 10,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 408.33333333333337,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -508,11 +260,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 7,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 245.0,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -521,68 +273,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 13,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 326.6666666666667,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -590,34 +300,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 11,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 650.0,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -625,11 +319,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 8,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 390.0,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -638,68 +332,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 14,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 520.0,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -707,34 +359,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 12,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 97.5,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -742,11 +378,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 9,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 58.5,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -755,68 +391,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 15,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 78.0,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -824,34 +418,18 @@
       "lastName" : "Stoica",
       "firstName" : "Diana",
       "city" : "Braila",
-      "age" : 6,
+      "age" : 13,
       "giftsPreferences" : [ "Books", "Technology", "Board Games" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 406.78571428571433,
+      "assignedBudget" : 375.0,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
         "category" : "Books"
       }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -859,11 +437,11 @@
       "lastName" : "Stoica",
       "firstName" : "Radu",
       "city" : "Braila",
-      "age" : 3,
+      "age" : 10,
       "giftsPreferences" : [ "Clothes", "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 406.78571428571433,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 225.0,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -872,68 +450,26 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
       "lastName" : "Cantemir",
       "firstName" : "Tudor",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 16,
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 325.42857142857144,
+      "assignedBudget" : 300.0,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Timisoara",
-      "age" : 20,
-      "giftsPreferences" : [ "Books", "Toys" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 4,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Braila",
-      "age" : 19,
-      "giftsPreferences" : [ "Books", "Board Games", "Sweets" ],
-      "averageScore" : 0.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 0.0,
-      "receivedGifts" : [ ]
     } ]
   } ]
 }

@@ -26,16 +26,8 @@
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -55,10 +47,6 @@
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -87,37 +75,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 13,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 226.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 7,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 96.85714285714286,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -125,11 +105,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 6,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 193.71428571428572,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -138,21 +118,17 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 4,
       "lastName" : "Mihalache",
       "firstName" : "Radu",
       "city" : "Iasi",
-      "age" : 14,
+      "age" : 15,
       "giftsPreferences" : [ "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
+      "assignedBudget" : 161.42857142857142,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -169,37 +145,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 14,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 533.3333333333334,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 8,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 228.57142857142856,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -207,11 +175,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 7,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 457.1428571428571,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -220,21 +188,17 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 4,
       "lastName" : "Mihalache",
       "firstName" : "Radu",
       "city" : "Iasi",
-      "age" : 14,
+      "age" : 16,
       "giftsPreferences" : [ "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
+      "assignedBudget" : 380.95238095238096,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -251,37 +215,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 15,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 150.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 9,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 64.28571428571428,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -289,11 +245,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 8,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 128.57142857142856,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -302,21 +258,17 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 4,
       "lastName" : "Mihalache",
       "firstName" : "Radu",
       "city" : "Iasi",
-      "age" : 14,
+      "age" : 17,
       "giftsPreferences" : [ "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
+      "assignedBudget" : 107.14285714285714,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -333,37 +285,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 16,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 233.33333333333334,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 10,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 100.0,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -371,11 +315,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 9,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 200.0,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -384,21 +328,17 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 4,
       "lastName" : "Mihalache",
       "firstName" : "Radu",
       "city" : "Iasi",
-      "age" : 14,
+      "age" : 18,
       "giftsPreferences" : [ "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
+      "assignedBudget" : 166.66666666666669,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -415,37 +355,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 17,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 579.25,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 11,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 248.25,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -453,11 +385,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 10,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 496.5,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -466,29 +398,6 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      } ]
-    }, {
-      "id" : 4,
-      "lastName" : "Mihalache",
-      "firstName" : "Radu",
-      "city" : "Iasi",
-      "age" : 14,
-      "giftsPreferences" : [ "Clothes", "Books" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
-      "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
       } ]
     } ]
   }, {
@@ -497,37 +406,29 @@
       "lastName" : "Stoica",
       "firstName" : "Alexandra",
       "city" : "Cluj-Napoca",
-      "age" : 12,
+      "age" : 18,
       "giftsPreferences" : [ ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 271.3333333333333,
+      "assignedBudget" : 420.0,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Constanta",
-      "age" : 6,
+      "age" : 12,
       "giftsPreferences" : [ "Sweets", "Board Games" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 116.28571428571428,
+      "assignedBudget" : 180.0,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -535,11 +436,11 @@
       "lastName" : "Popa",
       "firstName" : "Diana",
       "city" : "Oradea",
-      "age" : 5,
+      "age" : 11,
       "giftsPreferences" : [ "Books", "Board Games" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 232.57142857142856,
+      "assignedBudget" : 360.0,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -548,29 +449,6 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      } ]
-    }, {
-      "id" : 4,
-      "lastName" : "Mihalache",
-      "firstName" : "Radu",
-      "city" : "Iasi",
-      "age" : 14,
-      "giftsPreferences" : [ "Clothes", "Books" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 193.8095238095238,
-      "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
       } ]
     } ]
   } ]

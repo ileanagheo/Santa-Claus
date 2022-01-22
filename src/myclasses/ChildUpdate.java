@@ -5,39 +5,65 @@ import java.util.List;
 
 public class ChildUpdate {
     private int id;
-    private double niceScore;
+    private Double niceScore;
     private List<Category> giftsPreferences;
 
+    /**
+     */
     public ChildUpdate() {
     }
 
-    public ChildUpdate(int id, double niceScore, List<Category> giftsPreferences) {
+    /**
+     * @param id
+     * @param niceScore
+     * @param giftsPreferences
+     */
+    public ChildUpdate(final int id, final Double niceScore,
+                       final List<Category> giftsPreferences) {
         this.id = id;
         this.niceScore = niceScore;
         this.giftsPreferences = giftsPreferences;
     }
 
+    /**
+     * @return
+     */
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    /**
+     * @param id
+     */
+    public void setId(final int id) {
         this.id = id;
     }
 
-    public double getNiceScore() {
+    /**
+     * @return
+     */
+    public Double getNiceScore() {
         return niceScore;
     }
 
-    public void setNiceScore(double niceScore) {
+    /**
+     * @param niceScore
+     */
+    public void setNiceScore(final Double niceScore) {
         this.niceScore = niceScore;
     }
 
+    /**
+     * @return
+     */
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(List<Category> giftsPreferences) {
+    /**
+     * @param giftsPreferences
+     */
+    public void setGiftsPreferences(final List<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 }

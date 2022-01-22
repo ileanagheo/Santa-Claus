@@ -8,7 +8,7 @@
       "age" : 4,
       "giftsPreferences" : [ "Books" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
+      "niceScoreHistory" : [ 3.0 ],
       "assignedBudget" : 75.625,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
@@ -44,14 +44,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -61,19 +53,11 @@
       "age" : 2,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
+      "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 75.625,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
@@ -83,11 +67,11 @@
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 4,
+      "age" : 5,
       "giftsPreferences" : [ "Books" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 3.0, 7.0 ],
+      "assignedBudget" : 40.78651685393258,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -98,11 +82,11 @@
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 11,
+      "age" : 12,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 15.125,
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 2.0, 6.0 ],
+      "assignedBudget" : 38.06741573033708,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -113,22 +97,14 @@
       "lastName" : "Pop",
       "firstName" : "Andreea",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 10,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 10.0, 10.0 ],
+      "assignedBudget" : 81.57303370786516,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     }, {
@@ -136,22 +112,14 @@
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Craiova",
-      "age" : 2,
+      "age" : 3,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 2.0, 8.0 ],
+      "assignedBudget" : 81.57303370786516,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
@@ -161,26 +129,22 @@
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 4,
+      "age" : 6,
       "giftsPreferences" : [ "Books" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
-      "receivedGifts" : [ {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      } ]
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 3.0, 7.0 ],
+      "assignedBudget" : 33.70786516853932,
+      "receivedGifts" : [ ]
     }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 11,
+      "age" : 13,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 15.125,
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 2.0, 6.0 ],
+      "assignedBudget" : 31.46067415730337,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -191,22 +155,14 @@
       "lastName" : "Pop",
       "firstName" : "Andreea",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 11,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 10.0, 10.0 ],
+      "assignedBudget" : 67.41573033707864,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     }, {
@@ -214,22 +170,14 @@
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Craiova",
-      "age" : 2,
+      "age" : 4,
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 2.0, 8.0 ],
+      "assignedBudget" : 67.41573033707864,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
@@ -239,11 +187,11 @@
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 4,
+      "age" : 7,
       "giftsPreferences" : [ "Books" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 3.0, 7.0 ],
+      "assignedBudget" : 83.51351351351352,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -254,11 +202,11 @@
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 11,
+      "age" : 14,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 15.125,
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 2.0, 6.0 ],
+      "assignedBudget" : 77.94594594594595,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -269,22 +217,14 @@
       "lastName" : "Pop",
       "firstName" : "Andreea",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 12,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 10.0, 10.0 ],
+      "assignedBudget" : 167.02702702702703,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     }, {
@@ -292,22 +232,14 @@
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Craiova",
-      "age" : 2,
+      "age" : 5,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 2.0, 8.0 ],
+      "assignedBudget" : 83.51351351351352,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
@@ -317,11 +249,11 @@
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 4,
+      "age" : 8,
       "giftsPreferences" : [ "Books" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 3.0, 7.0 ],
+      "assignedBudget" : 76.21621621621621,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -332,11 +264,11 @@
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 11,
+      "age" : 15,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 15.125,
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 2.0, 6.0 ],
+      "assignedBudget" : 71.13513513513513,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -347,22 +279,14 @@
       "lastName" : "Pop",
       "firstName" : "Andreea",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 13,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 10.0, 10.0 ],
+      "assignedBudget" : 152.43243243243242,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     }, {
@@ -370,22 +294,14 @@
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Craiova",
-      "age" : 2,
+      "age" : 6,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 2.0, 8.0 ],
+      "assignedBudget" : 76.21621621621621,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
@@ -395,11 +311,11 @@
       "lastName" : "Mihalache",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 4,
+      "age" : 9,
       "giftsPreferences" : [ "Books" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 3.0, 7.0 ],
+      "assignedBudget" : 48.648648648648646,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -410,11 +326,11 @@
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 11,
+      "age" : 16,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 15.125,
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 2.0, 6.0 ],
+      "assignedBudget" : 45.40540540540541,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -425,22 +341,14 @@
       "lastName" : "Pop",
       "firstName" : "Andreea",
       "city" : "Iasi",
-      "age" : 9,
+      "age" : 14,
       "giftsPreferences" : [ "Sweets", "Toys" ],
       "averageScore" : 10.0,
-      "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 75.625,
+      "niceScoreHistory" : [ 10.0, 10.0 ],
+      "assignedBudget" : 97.29729729729729,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     }, {
@@ -448,22 +356,14 @@
       "lastName" : "Pop",
       "firstName" : "Miruna",
       "city" : "Craiova",
-      "age" : 2,
+      "age" : 7,
       "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ ],
-      "assignedBudget" : 75.625,
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 2.0, 8.0 ],
+      "assignedBudget" : 48.648648648648646,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
         "category" : "Toys"
       } ]
     } ]
