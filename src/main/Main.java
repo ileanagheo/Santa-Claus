@@ -28,7 +28,6 @@ public final class Main {
      *          the arguments used to call the main method
      */
     public static void main(final String[] args) {
-
         try {
             for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
                     ObjectMapper objectMapper = new ObjectMapper();
@@ -38,7 +37,7 @@ public final class Main {
                     DefaultPrettyPrinter prettyPrinter = new DefaultPrettyPrinter();
                     prettyPrinter.indentArraysWith(DefaultIndenter.SYSTEM_LINEFEED_INSTANCE);
 
-                    Implementare imp = new Implementare();
+                    Implementare imp = Implementare.getInstance();
                     AnnualChildren aC = imp.start(input);
                     objectMapper.writeValue(new File(Constants.OUTPUT_PATH + i
                             + Constants.FILE_EXTENSION), aC);
@@ -47,6 +46,5 @@ public final class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

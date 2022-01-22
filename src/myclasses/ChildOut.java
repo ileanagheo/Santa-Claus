@@ -1,21 +1,21 @@
 package myclasses;
 
 import enums.Category;
+import enums.Cities;
 
 import java.util.List;
 
 public class ChildOut {
-    //Modelul de afisare cum ne este cerut.
     private int id;
     private String lastName;
     private String firstName;
-    private String city;
+    private Cities city;
     private int age;
     private List<Category> giftsPreferences;
     private double averageScore;
     private List<Double> niceScoreHistory;
     private double assignedBudget;
-    private List<Cadou> receivedGifts;
+    private List<GiftOut> receivedGifts;
 
 
     /**
@@ -36,10 +36,10 @@ public class ChildOut {
      * @param assignedBudget
      * @param receivedGifts
      */
-    public ChildOut(final int id, final String lastName, final String firstName, final String city,
+    public ChildOut(final int id, final String lastName, final String firstName, final Cities city,
                     final int age, final List<Category> giftsPreferences, final double
                             averageScore, final List<Double> niceScoreHistory, final double
-                            assignedBudget, final List<Cadou> receivedGifts) {
+                            assignedBudget, final List<GiftOut> receivedGifts) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -97,14 +97,14 @@ public class ChildOut {
     /**
      * @return
      */
-    public String getCity() {
+    public Cities getCity() {
         return city;
     }
 
     /**
      * @param city
      */
-    public void setCity(final String city) {
+    public void setCity(final Cities city) {
         this.city = city;
     }
 
@@ -181,14 +181,14 @@ public class ChildOut {
     /**
      * @return
      */
-    public List<Cadou> getReceivedGifts() {
+    public List<GiftOut> getReceivedGifts() {
         return receivedGifts;
     }
 
     /**
      * @param receivedGifts
      */
-    public void setReceivedGifts(final List<Cadou> receivedGifts) {
+    public void setReceivedGifts(final List<GiftOut> receivedGifts) {
         this.receivedGifts = receivedGifts;
     }
 }
