@@ -28,8 +28,7 @@ public final class Main {
      *          the arguments used to call the main method
      */
     public static void main(final String[] args) {
-
-        try {
+    /*    try {
             for (int i = 1; i <= Constants.TESTS_NUMBER; i++) {
                     ObjectMapper objectMapper = new ObjectMapper();
                     Input input = objectMapper.readValue(new File(Constants.TEST_PATH + i
@@ -43,10 +42,11 @@ public final class Main {
                     objectMapper.writeValue(new File(Constants.OUTPUT_PATH + i
                             + Constants.FILE_EXTENSION), aC);
             }
-            Checker.calculateScore();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+*/
+        Checker.calculateScore();
     }
 }

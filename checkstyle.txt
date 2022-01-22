@@ -1,2 +1,13 @@
 Starting audit...
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:4:8: Unused import - com.fasterxml.jackson.core.util.DefaultIndenter. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:5:8: Unused import - com.fasterxml.jackson.core.util.DefaultPrettyPrinter. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:6:8: Unused import - com.fasterxml.jackson.databind.ObjectMapper. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:7:8: Unused import - com.fasterxml.jackson.databind.SerializationFeature. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:9:8: Unused import - common.Constants. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:10:8: Unused import - myclasses.Implementare. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:11:8: Unused import - myclasses.Input. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:12:8: Unused import - myclasses.AnnualChildren. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:14:8: Unused import - java.io.File. [UnusedImports]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\main\Main.java:15:8: Unused import - java.io.IOException. [UnusedImports]
 Audit done.
+Checkstyle ends with 10 errors.
