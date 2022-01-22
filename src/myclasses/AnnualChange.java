@@ -1,5 +1,7 @@
 package myclasses;
 
+import enums.CityStrategyEnum;
+
 import java.util.List;
 
 public class AnnualChange {
@@ -7,6 +9,7 @@ public class AnnualChange {
     private List<Cadou> newGifts;
     private List<Copil> newChildren;
     private List<ChildUpdate> childrenUpdates;
+    private CityStrategyEnum strategy;
 
     /**
      */
@@ -18,13 +21,15 @@ public class AnnualChange {
      * @param newGifts
      * @param newChildren
      * @param childrenUpdates
+     * @param strategy
      */
-    public AnnualChange(final double newSantaBudget, final List<Cadou> newGifts,
-                        final List<Copil> newChildren, final List<ChildUpdate> childrenUpdates) {
+    public AnnualChange(final double newSantaBudget, final List<Cadou> newGifts, final List<Copil>
+            newChildren, final List<ChildUpdate> childrenUpdates, final CityStrategyEnum strategy) {
         this.newSantaBudget = newSantaBudget;
         this.newGifts = newGifts;
         this.newChildren = newChildren;
         this.childrenUpdates = childrenUpdates;
+        this.strategy = strategy;
     }
 
     /**
@@ -74,6 +79,20 @@ public class AnnualChange {
      */
     public List<ChildUpdate> getChildrenUpdates() {
         return childrenUpdates;
+    }
+
+    /**
+     * @return
+     */
+    public CityStrategyEnum getStrategy() {
+        return strategy;
+    }
+
+    /**
+     * @param strategy
+     */
+    public void setStrategy(final CityStrategyEnum strategy) {
+        this.strategy = strategy;
     }
 
     /**

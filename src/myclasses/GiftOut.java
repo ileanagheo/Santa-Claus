@@ -2,29 +2,25 @@ package myclasses;
 
 import enums.Category;
 
-public class Cadou {
+public class GiftOut {
     private String productName;
     private double price;
     private Category category;
-    private Integer quantity;
 
     /**
      */
-    public Cadou() {
+    public GiftOut() {
     }
 
     /**
      * @param productName
      * @param price
      * @param category
-     * @param quantity
      */
-    public Cadou(final String productName, final double price, final Category category,
-                 final Integer quantity) {
+    public GiftOut(final String productName, final double price, final Category category) {
         this.productName = productName;
         this.price = price;
         this.category = category;
-        this.quantity = quantity;
     }
 
     /**
@@ -67,20 +63,6 @@ public class Cadou {
      */
     public final void setCategory(final Category category) {
         this.category = category;
-    }
-
-    /**
-     * @return
-     */
-    public Integer getQuantity() {
-        return quantity;
-    }
-
-    /**
-     * @param quantity
-     */
-    public void setQuantity(final Integer quantity) {
-        this.quantity = quantity;
     }
 
     /**
