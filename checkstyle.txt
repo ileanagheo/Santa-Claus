@@ -1,7 +1,6 @@
 Starting audit...
-[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Copil.java:271:47: 'niceScoreCity' hides a field. [HiddenField]
-[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Copil.java:326:53: 'niceScoreBonus' hides a field. [HiddenField]
-[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Implementare.java:64:5: Method length is 254 lines (max allowed is 150). [MethodLength]
-[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Implementare.java:229: Line is longer than 100 characters (found 102). [LineLength]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Copil.java:268:47: 'niceScoreCity' hides a field. [HiddenField]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Copil.java:321:53: 'niceScoreBonus' hides a field. [HiddenField]
+[ERROR] C:\Users\Ileana\Documents\GitHub\Santa-Claus\.\src\myclasses\Implementare.java:61:5: Method length is 215 lines (max allowed is 150). [MethodLength]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 3 errors.

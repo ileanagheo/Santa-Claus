@@ -6,16 +6,11 @@ public class GiftOut {
     private String productName;
     private double price;
     private Category category;
-
     /**
-     */
-    public GiftOut() {
-    }
-
-    /**
-     * @param productName
-     * @param price
-     * @param category
+     * This is the structure the gifts are shown in output
+     * @param productName : Name of the product
+     * @param price : Price of the product
+     * @param category : Category of the product
      */
     public GiftOut(final String productName, final double price, final Category category) {
         this.productName = productName;
@@ -24,52 +19,44 @@ public class GiftOut {
     }
 
     /**
-     * @return
+     * @return productName
      */
     public final String getProductName() {
         return productName;
     }
 
     /**
-     * @return
+     * @return price
      */
     public final double getPrice() {
         return price;
     }
 
     /**
-     * @return
+     * @return category
      */
     public final Category getCategory() {
         return category;
     }
 
     /**
-     * @param productName
+     * @param productName sets the product name
      */
     public final void setProductName(final String productName) {
         this.productName = productName;
     }
 
     /**
-     * @param price
+     * @param price sets the product price
      */
     public final void setPrice(final double price) {
         this.price = price;
     }
 
     /**
-     * @param category
+     * @param category sets product category
      */
     public final void setCategory(final Category category) {
         this.category = category;
-    }
-
-    /**
-     * @param o
-     * @return
-     */
-    public int compareTo(final Cadou o) {
-        return Double.compare(this.getPrice(), o.getPrice());
     }
 }

@@ -8,16 +8,14 @@ public class Cadou {
     private Category category;
     private Integer quantity;
 
-    /**
-     */
     public Cadou() {
     }
 
     /**
-     * @param productName
-     * @param price
-     * @param category
-     * @param quantity
+     * @param productName : name of the product
+     * @param price : price of the product
+     * @param category : category of the product
+     * @param quantity : quantity of the product
      */
     public Cadou(final String productName, final double price, final Category category,
                  final Integer quantity) {
@@ -28,64 +26,64 @@ public class Cadou {
     }
 
     /**
-     * @return
+     * @return productName
      */
     public final String getProductName() {
         return productName;
     }
 
     /**
-     * @return
+     * @return price
      */
     public final double getPrice() {
         return price;
     }
 
     /**
-     * @return
+     * @return category
      */
     public final Category getCategory() {
         return category;
     }
 
     /**
-     * @param productName
+     * @param productName sets product name
      */
     public final void setProductName(final String productName) {
         this.productName = productName;
     }
 
     /**
-     * @param price
+     * @param price sets price
      */
     public final void setPrice(final double price) {
         this.price = price;
     }
 
     /**
-     * @param category
+     * @param category sets category
      */
     public final void setCategory(final Category category) {
         this.category = category;
     }
 
     /**
-     * @return
+     * @return quantiy
      */
     public Integer getQuantity() {
         return quantity;
     }
 
     /**
-     * @param quantity
+     * @param quantity sets quantity
      */
     public void setQuantity(final Integer quantity) {
         this.quantity = quantity;
     }
 
     /**
-     * @param o
-     * @return
+     * @param o compares two products according to their price
+     * @return and returns the one with the lower price
      */
     public int compareTo(final Cadou o) {
         return Double.compare(this.getPrice(), o.getPrice());
