@@ -126,10 +126,6 @@
       "niceScoreHistory" : [ 9.0, 4.0, 9.0 ],
       "assignedBudget" : 313.4054054054054,
       "receivedGifts" : [ {
-        "productName" : "Bike",
-        "price" : 25.0,
-        "category" : "Toys"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
@@ -171,6 +167,10 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Bike",
+        "price" : 25.0,
+        "category" : "Toys"
       }, {
         "productName" : "Chocolate",
         "price" : 15.0,

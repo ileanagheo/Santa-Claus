@@ -11,16 +11,14 @@ public class ChildUpdate {
     private List<Category> giftsPreferences;
     private ElvesType elf;
 
-    /**
-     */
     public ChildUpdate() {
     }
 
     /**
-     * @param id
-     * @param niceScore
-     * @param giftsPreferences
-     * @param elf
+     * @param id : ID of the child
+     * @param niceScore : new nice score of the child
+     * @param giftsPreferences : new list of gifts preferences for the child
+     * @param elf : new elf for the child
      */
     public ChildUpdate(final int id, final Double niceScore, final List<Category> giftsPreferences,
                        final ElvesType elf) {
@@ -31,58 +29,58 @@ public class ChildUpdate {
     }
 
     /**
-     * @return
+     * @return ID
      */
     public int getId() {
         return id;
     }
 
     /**
-     * @param id
+     * @param id sets ID
      */
     public void setId(final int id) {
         this.id = id;
     }
 
     /**
-     * @return
+     * @return niceScore
      */
     public Double getNiceScore() {
         return niceScore;
     }
 
     /**
-     * @param niceScore
+     * @param niceScore sets nice score
      */
     public void setNiceScore(final Double niceScore) {
         this.niceScore = niceScore;
     }
 
     /**
-     * @return
+     * @return giftsPreferences
      */
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }
 
     /**
-     * @return
+     * @param giftsPreferences sets gifts preferences
      */
-    public ElvesType getElf() {
-        return elf;
+    public void setGiftsPreferences(final List<Category> giftsPreferences) {
+        this.giftsPreferences = giftsPreferences;
     }
 
     /**
-     * @param elf
+     * @param elf sets elf
      */
     public void setElf(final ElvesType elf) {
         this.elf = elf;
     }
 
     /**
-     * @param giftsPreferences
+     * @return sets elf type
      */
-    public void setGiftsPreferences(final List<Category> giftsPreferences) {
-        this.giftsPreferences = giftsPreferences;
+    public ElvesType getElf() {
+        return elf;
     }
 }

@@ -2,10 +2,10 @@ package myclasses;
 
 import common.Constants;
 import enums.Category;
+import enums.Cities;
 import enums.CityStrategyEnum;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -17,14 +17,11 @@ import static enums.ElvesType.YELLOW;
 public final class Implementare {
     private static Implementare instance = null;
 
-    /**
-     *
-     */
     private Implementare() {
     }
 
     /**
-     * @return
+     * @return instance
      */
     public static Implementare getInstance() {
         if (instance == null) {
@@ -34,76 +31,48 @@ public final class Implementare {
     }
 
     /**
-     * @param list
-     * @return
+     * @param list for deep copying preferences
+     * @return list
      */
     public List<Category> deepCPref(final List<Category> list) {
-        List<Category> newList = new ArrayList<>();
-        for (Category o : list) {
-            newList.add(o);
-        }
-        return newList;
+        return new ArrayList<>(list);
     }
 
     /**
-     * @param list
-     * @return
+     * @param list for deep copying history of niceness
+     * @return list
      */
     public List<Double> deepCHistory(final List<Double> list) {
-        List<Double> newList = new ArrayList<>();
-        for (Double o : list) {
-            newList.add(o);
-        }
-        return newList;
+        return new ArrayList<>(list);
     }
 
     /**
-     * @param list
-     * @return
+     * @param list for deep copying gifts
+     * @return list
      */
     public List<Cadou> deepCCadou(final List<Cadou> list) {
-        List<Cadou> newList = new ArrayList<>();
-        for (Cadou o : list) {
-            newList.add(o);
-        }
-        return newList;
+        return new ArrayList<>(list);
     }
 
     /**
-     * @param input
-     * @return
+     * @param input that is read from json files
+     * @return list of children and their received gifts for each year
      */
     public AnnualChildren start(final Input input) {
         AnnualChildren aC = new AnnualChildren();
         List<ChildrenOneYear> listCOY = new ArrayList<>();
         List<Copil> copii = input.getInitialData().getChildren(), eligibil = new ArrayList<>();
         List<Cadou> cadouri = input.getInitialData().getSantaGiftsList();
-        double averageScoreSum = 0, santaBudget = input.getSantaBudget(), budgetUnit = 0;
+        double averageScoreSum = 0, santaBudget = input.getSantaBudget(), budgetUnit;
         copii.sort(Copil::compareTo);
-        for (int i = 0; i < copii.size(); i++) {
-            if (copii.get(i).getAge() < Constants.BABY) {
-                copii.get(i).setAverageScore(Constants.SCORELESS);
-                copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
-            } else if (copii.get(i).getAge() < Constants.KID) {
-                copii.get(i).setAverageScore(copii.get(i).getNiceScore());
-                copii.get(i).setAverageScore(copii.get(i).getAverageScore()
-                        + copii.get(i).getAverageScore() * copii.get(i).getNiceScoreBonus()
-                        / Constants.HUNDRED);
-                if (copii.get(i).getAverageScore() > Constants.SCORELESS) {
-                    copii.get(i).setAverageScore(Constants.SCORELESS);
-                }
-                copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
-            } else if (copii.get(i).getAge() <= Constants.TEEN) {
-                copii.get(i).setAverageScore(copii.get(i).getNiceScore());
-                    copii.get(i).setAverageScore(copii.get(i).getAverageScore() + copii.get(i)
-                            .getAverageScore() * copii.get(i).getNiceScoreBonus()
-                            / Constants.HUNDRED);
-                if (copii.get(i).getAverageScore() > Constants.SCORELESS) {
-                    copii.get(i).setAverageScore(Constants.SCORELESS);
-                }
-                copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
+        for (Copil copil : copii) {
+            if (copil.getAge() < Constants.BABY) {
+                copil.setAverageScore(Constants.SCORELESS);
+                copil.getNiceScoreHistory().add(copil.getNiceScore());
+            } else if (copil.getAge() < Constants.KID || copil.getAge() <= Constants.TEEN) {
+                avgScoreBonus(copil);
             }
-            averageScoreSum += copii.get(i).getAverageScore();
+            averageScoreSum += copil.getAverageScore();
         }
         budgetUnit = santaBudget / averageScoreSum;
         for (Copil c : copii) {
@@ -115,51 +84,28 @@ public final class Implementare {
             eligibil.add(copil);
         }
         eligibil.removeIf(ch -> ch.getAge() > Constants.TEEN);
-        for (int i = 0; i < eligibil.size(); i++) {
-            eligibil.get(i).setAssignedBudget(eligibil.get(i).getAverageScore() * budgetUnit);
-            if (eligibil.get(i).getElf().equals(BLACK)) {
-                eligibil.get(i).setAssignedBudget(eligibil.get(i).getAssignedBudget() - eligibil
-                        .get(i).getAssignedBudget() * Constants.THIRTY / Constants.HUNDRED);
-            }
-            if (eligibil.get(i).getElf().equals(PINK)) {
-                eligibil.get(i).setAssignedBudget(eligibil.get(i).getAssignedBudget() + eligibil
-                        .get(i).getAssignedBudget() * Constants.THIRTY / Constants.HUNDRED);
-            }
-        }
+        elfBlackPink(eligibil, budgetUnit);
         cadouri.sort(Cadou::compareTo);
-        for (int i = 0; i < eligibil.size(); i++) {
-            double aux = eligibil.get(i).getAssignedBudget();
-            for (int j = 0; j < eligibil.get(i).getGiftsPreferences().size(); j++) {
-                for (int k = 0; k < cadouri.size(); k++) {
-                    if (eligibil.get(i).getGiftsPreferences().get(j) == cadouri.get(k)
-                            .getCategory()) {
-                        if (cadouri.get(k).getPrice() < eligibil.get(i).getAssignedBudget()
-                                && cadouri.get(k).getQuantity() > 0) {
-                            eligibil.get(i).getReceivedGifts().add(cadouri.get(k));
-                            eligibil.get(i).setAssignedBudget(eligibil.get(i).getAssignedBudget()
-                                    - cadouri.get(k).getPrice());
-                            cadouri.get(k).setQuantity(cadouri.get(k).getQuantity() - 1);
-                            break;
-                        }
-                    }
-                }
-            }
-            eligibil.get(i).setAssignedBudget(aux);
-        }
         for (Copil copil : eligibil) {
-            if (copil.getReceivedGifts().size() == 0 && copil.getElf().equals(YELLOW)) {
-                Category pref = copil.getGiftsPreferences().get(0);
+            double aux = copil.getAssignedBudget();
+            for (int j = 0; j < copil.getGiftsPreferences().size(); j++) {
                 for (Cadou cadou : cadouri) {
-                    if (pref.equals(cadou.getCategory())) {
-                        if (cadou.getQuantity() > 0) {
+                    if (copil.getGiftsPreferences().get(j) == cadou
+                            .getCategory()) {
+                        if (cadou.getPrice() < copil.getAssignedBudget()
+                                && cadou.getQuantity() > 0) {
                             copil.getReceivedGifts().add(cadou);
+                            copil.setAssignedBudget(copil.getAssignedBudget()
+                                    - cadou.getPrice());
                             cadou.setQuantity(cadou.getQuantity() - 1);
                             break;
                         }
                     }
                 }
             }
+            copil.setAssignedBudget(aux);
         }
+        elfYellow(eligibil, cadouri);
         List<ChildOut> cO = new ArrayList<>();
         List<GiftOut> gfOut;
         for (Copil copil : eligibil) {
@@ -183,19 +129,19 @@ public final class Implementare {
             santaBudget = annualChange.getNewSantaBudget();
             input.setSantaBudget(santaBudget);
             copii = annualChange.getNewChildren();
-            for (int i = 0; i < eligibil.size(); i++) {
-                eligibil.get(i).setAge(eligibil.get(i).getAge() + 1);
+            for (Copil copil : eligibil) {
+                copil.setAge(copil.getAge() + 1);
             }
-            for (int i = 0; i < copii.size(); i++) {
-                if (copii.get(i).getAge() < Constants.BABY) {
-                    copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
-                    eligibil.add(copii.get(i));
-                } else if (copii.get(i).getAge() < Constants.KID) {
-                    copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
-                    eligibil.add(copii.get(i));
-                } else if (copii.get(i).getAge() <= Constants.TEEN) {
-                    copii.get(i).getNiceScoreHistory().add(copii.get(i).getNiceScore());
-                    eligibil.add(copii.get(i));
+            for (Copil copil : copii) {
+                if (copil.getAge() < Constants.BABY) {
+                    copil.getNiceScoreHistory().add(copil.getNiceScore());
+                    eligibil.add(copil);
+                } else if (copil.getAge() < Constants.KID) {
+                    copil.getNiceScoreHistory().add(copil.getNiceScore());
+                    eligibil.add(copil);
+                } else if (copil.getAge() <= Constants.TEEN) {
+                    copil.getNiceScoreHistory().add(copil.getNiceScore());
+                    eligibil.add(copil);
                 }
             }
             eligibil.removeIf(ch -> ch.getAge() > Constants.TEEN);
@@ -215,87 +161,82 @@ public final class Implementare {
                             }
                         }
                         Set<Category> faraDuplicate = new LinkedHashSet<>(c.getGiftsPreferences());
-                        List<Category> giftPref = new ArrayList<>();
-                        for (Category o : faraDuplicate) {
-                            giftPref.add(o);
-                        }
+                        List<Category> giftPref = new ArrayList<>(faraDuplicate);
                         c.setGiftsPreferences(giftPref);
                         c.setElf(upC.getElf());
                     }
                 }
             }
             eligibil.sort(Copil::compareTo);
-            for (int i = 0; i < eligibil.size(); i++) {
-                if (eligibil.get(i).getAge() < Constants.BABY) {
-                    eligibil.get(i).setAverageScore(Constants.SCORELESS);
-                } else if (eligibil.get(i).getAge() < Constants.KID) {
+            for (Copil copil : eligibil) {
+                if (copil.getAge() < Constants.BABY) {
+                    copil.setAverageScore(Constants.SCORELESS);
+                } else if (copil.getAge() < Constants.KID) {
                     double sum = 0.0;
-                    for (double score : eligibil.get(i).getNiceScoreHistory()) {
+                    for (double score : copil.getNiceScoreHistory()) {
                         sum = sum + score;
                     }
-                    sum = sum / eligibil.get(i).getNiceScoreHistory().size();
-                    eligibil.get(i).setAverageScore(sum);
-                    eligibil.get(i).setAverageScore(eligibil.get(i).getAverageScore()
-                            + eligibil.get(i).getAverageScore() * eligibil.get(i)
-                            .getNiceScoreBonus() / Constants.HUNDRED);
-                    if (eligibil.get(i).getAverageScore() > Constants.SCORELESS) {
-                        eligibil.get(i).setAverageScore(Constants.SCORELESS);
-                    }
-                } else if (eligibil.get(i).getAge() <= Constants.TEEN) {
+                    sum = sum / copil.getNiceScoreHistory().size();
+                    avgScore(copil, sum);
+                } else if (copil.getAge() <= Constants.TEEN) {
                     double index = 1;
                     double sum = 0.0;
-                    for (double d : eligibil.get(i).getNiceScoreHistory()) {
+                    for (double d : copil.getNiceScoreHistory()) {
                         sum += (index * d);
                         index++;
                     }
                     index--;
                     sum = sum / (index * (index + 1) / 2);
-                    eligibil.get(i).setAverageScore(sum);
-                    eligibil.get(i).setAverageScore(eligibil.get(i).getAverageScore()
-                            + eligibil.get(i).getAverageScore() * eligibil.get(i)
-                            .getNiceScoreBonus() / Constants.HUNDRED);
-                    if (eligibil.get(i).getAverageScore() > Constants.SCORELESS) {
-                        eligibil.get(i).setAverageScore(Constants.SCORELESS);
-                    }
+                    avgScore(copil, sum);
                 }
-                averageScoreSum = averageScoreSum + eligibil.get(i).getAverageScore();
+                averageScoreSum = averageScoreSum + copil.getAverageScore();
             }
             budgetUnit = santaBudget / averageScoreSum;
-            for (int i = 0; i < eligibil.size(); i++) {
-                eligibil.get(i).setAssignedBudget(eligibil.get(i).getAverageScore() * budgetUnit);
-                if (eligibil.get(i).getElf().equals(BLACK)) {
-                    eligibil.get(i).setAssignedBudget(eligibil.get(i).getAssignedBudget() - eligibil
-                            .get(i).getAssignedBudget() * Constants.THIRTY / Constants.HUNDRED);
-                }
-                if (eligibil.get(i).getElf().equals(PINK)) {
-                    eligibil.get(i).setAssignedBudget(eligibil.get(i).getAssignedBudget() + eligibil
-                            .get(i).getAssignedBudget() * Constants.THIRTY / Constants.HUNDRED);
-                }
-            }
+            elfBlackPink(eligibil, budgetUnit);
             input.getInitialData().getSantaGiftsList().sort(Cadou::compareTo);
             eligibil.sort(Copil::compareTo);
             if (annualChange.getStrategy().equals(CityStrategyEnum.NICE_SCORE)) {
-                eligibil.sort(new Comparator<Copil>() {
-                    @Override
-                    public int compare(final Copil o1, final Copil o2) {
-                        return Double.compare(o2.getAverageScore(), o1.getAverageScore());
+                eligibil.sort((o1, o2) -> Double.compare(o2.getAverageScore(),
+                        o1.getAverageScore()));
+            } else if (annualChange.getStrategy().equals(CityStrategyEnum.NICE_SCORE_CITY)) {
+                for (Cities city : Cities.values()) {
+                    double sum = 0.0;
+                    int index = 0;
+                    for (Copil copil : eligibil) {
+                        if (city.equals(copil.getCity())) {
+                            sum += copil.getAverageScore();
+                            index++;
+                        }
+                    }
+                    sum /= index;
+                    for (Copil copil : eligibil) {
+                        if (city.equals(copil.getCity())) {
+                            copil.setniceScoreCity(sum);
+                        }
+                    }
+                }
+                eligibil.sort((c1, c2) -> {
+                    if (c2.getniceScoreCity() != c1.getniceScoreCity()) {
+                        return Double.compare(c2.getniceScoreCity(), c1.getniceScoreCity());
+                    } else {
+                        return CharSequence.compare(c1.getCity().toString(),
+                                c2.getCity().toString());
                     }
                 });
-            } else if (annualChange.getStrategy().equals(CityStrategyEnum.NICE_SCORE_CITY)) {
-
             }
-            for (int i = 0; i < eligibil.size(); i++) {
+
+            for (Copil copil : eligibil) {
                 List<Cadou> cadouriCopil = new ArrayList<>();
-                double aux = eligibil.get(i).getAssignedBudget();
-                for (int j = 0; j < eligibil.get(i).getGiftsPreferences().size(); j++) {
+                double aux = copil.getAssignedBudget();
+                for (int j = 0; j < copil.getGiftsPreferences().size(); j++) {
                     for (int k = 0; k < input.getInitialData().getSantaGiftsList().size(); k++) {
-                        if (eligibil.get(i).getGiftsPreferences().get(j) == input.
+                        if (copil.getGiftsPreferences().get(j) == input.
                                 getInitialData().getSantaGiftsList().get(k).getCategory()) {
                             if (input.getInitialData().getSantaGiftsList().get(k).getPrice()
-                                    <= eligibil.get(i).getAssignedBudget() && input.getInitialData()
+                                    <= copil.getAssignedBudget() && input.getInitialData()
                                     .getSantaGiftsList().get(k).getQuantity() > 0) {
                                 cadouriCopil.add(input.getInitialData().getSantaGiftsList().get(k));
-                                eligibil.get(i).setAssignedBudget(eligibil.get(i).
+                                copil.setAssignedBudget(copil.
                                         getAssignedBudget() - input.getInitialData().
                                         getSantaGiftsList().get(k).getPrice());
                                 input.getInitialData().getSantaGiftsList().get(k).setQuantity(input
@@ -306,23 +247,10 @@ public final class Implementare {
                         }
                     }
                 }
-                eligibil.get(i).setAssignedBudget(aux);
-                eligibil.get(i).setReceivedGifts(cadouriCopil);
+                copil.setAssignedBudget(aux);
+                copil.setReceivedGifts(cadouriCopil);
             }
-            for (Copil copil : eligibil) {
-                if (copil.getReceivedGifts().size() == 0 && copil.getElf().equals(YELLOW)) {
-                    Category pref = copil.getGiftsPreferences().get(0);
-                    for (Cadou cadou : input.getInitialData().getSantaGiftsList()) {
-                        if (pref.equals(cadou.getCategory())) {
-                            if (cadou.getQuantity() > 0) {
-                                copil.getReceivedGifts().add(cadou);
-                                cadou.setQuantity(cadou.getQuantity() - 1);
-                                break;
-                            }
-                        }
-                    }
-                }
-            }
+            elfYellow(eligibil, input.getInitialData().getSantaGiftsList());
             eligibil.sort(Copil::compareTo);
             List<ChildOut> chOut = new ArrayList<>();
             ChildrenOneYear chOneYear = new ChildrenOneYear(cO);
@@ -344,5 +272,55 @@ public final class Implementare {
         }
         aC.setAnnualChildren(listCOY);
         return aC;
+    }
+
+    private void elfBlackPink(final List<Copil> eligibil, final double budgetUnit) {
+        for (Copil copil : eligibil) {
+            copil.setAssignedBudget(copil.getAverageScore() * budgetUnit);
+            if (copil.getElf().equals(BLACK)) {
+                copil.setAssignedBudget(copil.getAssignedBudget() - copil.getAssignedBudget()
+                        * Constants.THIRTY / Constants.HUNDRED);
+            }
+            if (copil.getElf().equals(PINK)) {
+                copil.setAssignedBudget(copil.getAssignedBudget() + copil.getAssignedBudget()
+                        * Constants.THIRTY / Constants.HUNDRED);
+            }
+        }
+    }
+
+    private void elfYellow(final List<Copil> eligibil, final List<Cadou> cadouri) {
+        for (Copil copil : eligibil) {
+            if (copil.getReceivedGifts().size() == 0 && copil.getElf().equals(YELLOW)) {
+                Category pref = copil.getGiftsPreferences().get(0);
+                for (Cadou cadou : cadouri) {
+                    if (pref.equals(cadou.getCategory())) {
+                        if (cadou.getQuantity() > 0) {
+                            copil.getReceivedGifts().add(cadou);
+                            cadou.setQuantity(cadou.getQuantity() - 1);
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    private void avgScoreBonus(final Copil copil) {
+        copil.setAverageScore(copil.getNiceScore());
+        copil.setAverageScore(copil.getAverageScore() + copil.getAverageScore()
+                * copil.getNiceScoreBonus() / Constants.HUNDRED);
+        if (copil.getAverageScore() > Constants.SCORELESS) {
+            copil.setAverageScore(Constants.SCORELESS);
+        }
+        copil.getNiceScoreHistory().add(copil.getNiceScore());
+    }
+
+    private void avgScore(final Copil copil, final Double sum) {
+        copil.setAverageScore(sum);
+        copil.setAverageScore(copil.getAverageScore() + copil.getAverageScore()
+                * copil.getNiceScoreBonus() / Constants.HUNDRED);
+        if (copil.getAverageScore() > Constants.SCORELESS) {
+            copil.setAverageScore(Constants.SCORELESS);
+        }
     }
 }
