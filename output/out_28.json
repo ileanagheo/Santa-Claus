@@ -201,8 +201,8 @@
       "niceScoreHistory" : [ 4.0, 5.0 ],
       "assignedBudget" : 50.15278224509489,
       "receivedGifts" : [ {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Castle",
+        "price" : 15.0,
         "category" : "Toys"
       } ]
     }, {
@@ -250,8 +250,8 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 131.71437761338052,
       "receivedGifts" : [ {
-        "productName" : "Castle",
-        "price" : 15.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       }, {
         "productName" : "Harry Potter",
@@ -359,8 +359,8 @@
       "niceScoreHistory" : [ 5.0 ],
       "assignedBudget" : 97.39625711960944,
       "receivedGifts" : [ {
-        "productName" : "Bike",
-        "price" : 25.0,
+        "productName" : "Lego",
+        "price" : 30.0,
         "category" : "Toys"
       }, {
         "productName" : "Harry Potter",
@@ -378,8 +378,8 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 71.76566314076486,
       "receivedGifts" : [ {
-        "productName" : "Lego",
-        "price" : 30.0,
+        "productName" : "Bike",
+        "price" : 25.0,
         "category" : "Toys"
       }, {
         "productName" : "Harry Potter",

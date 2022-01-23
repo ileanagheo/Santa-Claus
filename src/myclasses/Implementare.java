@@ -2,6 +2,7 @@ package myclasses;
 
 import common.Constants;
 import enums.Category;
+import enums.Cities;
 import enums.CityStrategyEnum;
 
 import java.util.ArrayList;
@@ -282,7 +283,28 @@ public final class Implementare {
                     }
                 });
             } else if (annualChange.getStrategy().equals(CityStrategyEnum.NICE_SCORE_CITY)) {
-
+                for (Cities city : Cities.values()) {
+                    double sum = 0.0;
+                    int index = 0;
+                    for (Copil copil : eligibil) {
+                        if (copil.getCity().equals(city)) {
+                            sum += copil.getAverageScore();
+                            index ++;
+                        }
+                    }
+                    sum /= index;
+                    for (Copil copil : eligibil) {
+                        if (copil.getCity().equals(city)) {
+                            copil.setniceScoreCity(sum);
+                        }
+                    }
+                }
+                eligibil.sort(new Comparator<Copil>() {
+                    @Override
+                    public int compare(final Copil o1, final Copil o2) {
+                        return Double.compare(o2.getniceScoreCity(), o1.getniceScoreCity());
+                    }
+                });
             }
             for (int i = 0; i < eligibil.size(); i++) {
                 List<Cadou> cadouriCopil = new ArrayList<>();
